@@ -1,9 +1,5 @@
 package mvb.typeclass.lab2.orig
 
-/**
-  * From http://debasishg.blogspot.com/2010/06/scala-implicits-type-classes-here-i.html
-  */
-
 object Labeling {
   trait LabelLike[T] {
     def toLabel(value: T): String
