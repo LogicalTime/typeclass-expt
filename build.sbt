@@ -1,15 +1,12 @@
+import Dependency._
+import sbt.Keys._
+
 name := "anagrammer-scala"
 version := "0.1.0"
 scalaVersion := "2.11.8"
 description := ""
 
-
-import Dependency._
-import sbt.Keys._
-
-
 lazy val root = project in file(".")
-
 
 lazy val expt1 = project
   .settings(
