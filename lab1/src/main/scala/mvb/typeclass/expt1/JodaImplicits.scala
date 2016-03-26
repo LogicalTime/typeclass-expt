@@ -1,6 +1,4 @@
-package mvb.typeclass.expt1.ext
-
-
+package mvb.typeclass.expt1
 
 /**
   * Created by Mark on 3/26/2016.

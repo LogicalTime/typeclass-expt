@@ -1,4 +1,4 @@
-package mvb.typeclass.lab2.ext
+package mvb.typeclass.lab2
 
 /**
   * Created by Mark on 3/26/2016.

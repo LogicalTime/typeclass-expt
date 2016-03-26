@@ -1,5 +1,5 @@
 package mvb.typeclass.expt1
-import mvb.typeclass.expt1.ext.JodaImplicits
+import JodaImplicits
 import mvb.typeclass.expt1.orig.Statistics
 /**
   * Created by Mark on 3/26/2016.
