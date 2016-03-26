@@ -24,3 +24,9 @@ lazy val lab2 = project
     libraryDependencies += "joda-time" % "joda-time" % "2.1",
     libraryDependencies += "org.joda" % "joda-convert" % "1.3"
   )
+
+lazy val lab3 = project
+  .settings(
+    libraryDependencies += "joda-time" % "joda-time" % "2.1",
+    libraryDependencies += "org.joda" % "joda-convert" % "1.3"
+  )
