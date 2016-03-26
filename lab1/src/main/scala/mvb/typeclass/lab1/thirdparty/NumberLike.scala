@@ -1,7 +1,7 @@
 package mvb.typeclass.lab1.thirdparty
 
 /**
-  * Created by Mark on 3/26/2016.
+  * NumberLike is a TypeClass
   */
 trait NumberLike[T] {
   def plus(x: T, y: T): T

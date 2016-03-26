@@ -2,7 +2,9 @@ package mvb.typeclass.lab4.thirdparty
 
 
 /**
-  * Created by Mark on 3/26/2016.
+  * The functionality you really want.
+  * I'd say start here and define the methods you want, and this will
+  * incrementally tell you what Functions to add to ReversableLike
   */
 object ReversingFunctionality {
   def reverseIt[T: ReversableLike](o: T): T = {

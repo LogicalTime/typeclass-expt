@@ -1,13 +1,13 @@
 package mvb.typeclass.lab1
 
-import mvb.typeclass.lab1.thirdparty.Statistics
+import mvb.typeclass.lab1.thirdparty.StatisticsFunctionality
 
 /**
   * From: http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
   * Created by Mark on 3/26/2016.
   */
 object Expt1 extends App{
-  import Statistics._
+  import StatisticsFunctionality._
   import JodaImplicits._
   import org.joda.time.Duration._
 

@@ -1,7 +1,7 @@
 package mvb.typeclass.lab4.thirdparty
 
 /**
-  * Created by Mark on 3/26/2016.
+  * Interface you need to adapt your chosen class to so that you can use the methods in the functionality class.
   */
 trait ReversableLike[T] {
   def reverse(t: T): T

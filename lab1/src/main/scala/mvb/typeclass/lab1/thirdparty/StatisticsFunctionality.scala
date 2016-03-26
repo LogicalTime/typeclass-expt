@@ -3,7 +3,7 @@ package mvb.typeclass.lab1.thirdparty
 /**
   * Created by Mark on 3/26/2016.
   */
-object Statistics {
+object StatisticsFunctionality {
   def mean[T](xs: Vector[T])(implicit ev: NumberLike[T]): T =
     ev.divide(xs.reduce(ev.plus), xs.size)
   def median[T : NumberLike](xs: Vector[T]): T = xs(xs.size / 2)
