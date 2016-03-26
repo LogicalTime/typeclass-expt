@@ -2,7 +2,8 @@ import Dependency._
 import sbt.Keys._
 
 
-lazy val root = project in file(".")
+lazy val root = (project in file("."))
+    .aggregate(lab1, lab2, lab3, lab4)
 
 def commonSettings = Seq(
   name := "anagrammer-scala",

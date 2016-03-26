@@ -1,4 +1,4 @@
-package mvb.typeclass.expt1
+package mvb.typeclass.lab1
 
 
 
@@ -6,7 +6,7 @@ package mvb.typeclass.expt1
   * Created by Mark on 3/26/2016.
   */
 object JodaImplicits {
-  import mvb.typeclass.expt1.orig.NumberLike
+  import mvb.typeclass.lab1.thirdparty.NumberLike
   import org.joda.time.Duration
   implicit object NumberLikeDuration extends NumberLike[Duration] {
     def plus(x: Duration, y: Duration): Duration = x.plus(y)

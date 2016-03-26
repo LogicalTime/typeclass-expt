@@ -1,4 +1,4 @@
-package mvb.typeclass.expt1.orig
+package mvb.typeclass.lab1.thirdparty
 
 /**
   * Created by Mark on 3/26/2016.

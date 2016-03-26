@@ -1,6 +1,6 @@
-package mvb.typeclass.expt1
+package mvb.typeclass.lab1
 
-import mvb.typeclass.expt1.orig.Statistics
+import mvb.typeclass.lab1.thirdparty.Statistics
 
 /**
   * From: http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html

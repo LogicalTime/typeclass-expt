@@ -1,6 +1,6 @@
 package mvb.typeclass.lab4
 
-import mvb.typeclass.lab4.orig.Person
+import mvb.typeclass.lab4.thirdparty.Person
 
 
 /**
@@ -8,7 +8,7 @@ import mvb.typeclass.lab4.orig.Person
   * Created by Mark on 3/26/2016.
   */
 object Expt1 extends App{
-  import mvb.typeclass.lab4.orig.ReversingFunctionality._
+  import mvb.typeclass.lab4.thirdparty.ReversingFunctionality._
   import org.joda.time.Duration._
 
   println{

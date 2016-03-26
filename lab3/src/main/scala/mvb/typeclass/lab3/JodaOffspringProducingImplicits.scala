@@ -1,4 +1,5 @@
-package mvb.typeclass.lab2
+package mvb.typeclass.lab3
+
 
 
 
@@ -6,7 +7,7 @@ package mvb.typeclass.lab2
   * Created by Mark on 3/26/2016.
   */
 object JodaOffspringProducingImplicits {
-  import mvb.typeclass.lab3.orig.Offspring.OffspringProducingLike
+  import mvb.typeclass.lab3.thirdparty.OffspringProducingLike
   import org.joda.time.Duration
 
   implicit object OffspringProducingLikeDuration extends OffspringProducingLike[Duration] {
